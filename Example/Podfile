@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Alete_Example' do
+  pod 'Alete', :path => '../'
+  pod 'Request', :path => '../../Request'
+  target 'Alete_Tests' do
+    inherit! :search_paths
+    
+    
+  end
+end

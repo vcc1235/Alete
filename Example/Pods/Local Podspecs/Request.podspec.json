@@ -1,0 +1,46 @@
+{
+  "name": "Request",
+  "version": "0.1.0",
+  "summary": "A short description of Request.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1041497818@qq.com/Request",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1041497818@qq.com": "1041497818@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1041497818@qq.com/Request.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  },
+  "source_files": "Request/Classes/Request.h",
+  "subspecs": [
+    {
+      "name": "Socket",
+      "source_files": "Request/Classes/Home/Request/Socket/*{.h,.m}"
+    },
+    {
+      "name": "Core",
+      "source_files": "Request/Classes/Home/Request/Core/*{.h,.m}"
+    },
+    {
+      "name": "Lib",
+      "subspecs": [
+        {
+          "name": "SocketRocket",
+          "source_files": "Request/Classes/Home/Lib/SocketRocket/**"
+        }
+      ]
+    }
+  ]
+}

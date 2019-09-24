@@ -1,0 +1,7 @@
+<api>
+    <userApi>
+        <login>/user/login</login>
+        <ready>/user/ready</ready>
+    </userApi>
+</api>
+

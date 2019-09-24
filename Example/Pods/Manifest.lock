@@ -1,0 +1,168 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alete (0.1.0):
+    - Alete/Base (= 0.1.0)
+    - Alete/Category (= 0.1.0)
+    - Alete/ConfigManager (= 0.1.0)
+    - Alete/Factory (= 0.1.0)
+    - Alete/Lib (= 0.1.0)
+    - Alete/Parise (= 0.1.0)
+    - Alete/Tool (= 0.1.0)
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Base (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Category (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/ConfigManager (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Factory (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib (0.1.0):
+    - Alete/Lib/Alete (= 0.1.0)
+    - Alete/Lib/RSA (= 0.1.0)
+    - Alete/Lib/SDCycleScrollView (= 0.1.0)
+    - Alete/Lib/SVProgressHUD (= 0.1.0)
+    - "Alete/Lib/UITableView+FDTemplateLayoutCell (= 0.1.0)"
+    - Alete/Lib/YYCache (= 0.1.0)
+    - Alete/Lib/YYModel (= 0.1.0)
+    - Alete/Lib/YYText (= 0.1.0)
+    - Alete/Lib/YYWebImage (= 0.1.0)
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/Alete (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/RSA (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/SDCycleScrollView (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/SVProgressHUD (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - "Alete/Lib/UITableView+FDTemplateLayoutCell (0.1.0)":
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/YYCache (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/YYModel (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/YYText (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Lib/YYWebImage (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Parise (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Alete/Tool (0.1.0):
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.0)
+  - ReactiveObjC (3.1.1)
+  - Request (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - Request/Core (= 0.1.0)
+    - Request/Lib (= 0.1.0)
+    - Request/Socket (= 0.1.0)
+  - Request/Core (0.1.0):
+    - AFNetworking (~> 3.1.0)
+  - Request/Lib (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - Request/Lib/SocketRocket (= 0.1.0)
+  - Request/Lib/SocketRocket (0.1.0):
+    - AFNetworking (~> 3.1.0)
+  - Request/Socket (0.1.0):
+    - AFNetworking (~> 3.1.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - Alete (from `../`)
+  - Request (from `../../Request`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - YYImage
+
+EXTERNAL SOURCES:
+  Alete:
+    :path: "../"
+  Request:
+    :path: "../../Request"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alete: 0e1c26635cec5e0786f5522bee55c2befbb28e76
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  Request: af112e895126d34018f3eea2c61178bcfd5467b1
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 6ffad8d212f1bdba86d1ecd23b5c00860218f314
+
+COCOAPODS: 1.7.0.beta.3

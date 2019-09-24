@@ -1,0 +1,108 @@
+{
+  "name": "Alete",
+  "version": "0.1.0",
+  "summary": "A short description of Alete.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1041497818@qq.com/Alete",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1041497818@qq.com": "1041497818@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1041497818@qq.com/Alete.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ],
+    "YYImage": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "source_files": "Alete/Classes/Alete.h",
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "subspecs": [
+    {
+      "name": "ConfigManager",
+      "source_files": "Alete/Classes/Home/ColorManager/*{.h,.m}"
+    },
+    {
+      "name": "Parise",
+      "source_files": "Alete/Classes/Home/PariseManager/*{.h,.m}"
+    },
+    {
+      "name": "Category",
+      "source_files": "Alete/Classes/Home/Category/**/**"
+    },
+    {
+      "name": "Factory",
+      "source_files": "Alete/Classes/Home/Factory/**"
+    },
+    {
+      "name": "Base",
+      "source_files": "Alete/Classes/Home/Base/**/**"
+    },
+    {
+      "name": "Tool",
+      "source_files": "Alete/Classes/Home/Tool/**/**"
+    },
+    {
+      "name": "Lib",
+      "subspecs": [
+        {
+          "name": "YYModel",
+          "source_files": "Alete/Classes/Home/Lib/YYModel/**"
+        },
+        {
+          "name": "SVProgressHUD",
+          "source_files": "Alete/Classes/Home/Lib/SVProgressHUD/*{.h,.m}",
+          "resources": "Alete/Classes/Home/Lib/SVProgressHUD/*.bundle"
+        },
+        {
+          "name": "UITableView+FDTemplateLayoutCell",
+          "source_files": "Alete/Classes/Home/Lib/UITableView+FDTemplateLayoutCell/*{.h,.m}"
+        },
+        {
+          "name": "SDCycleScrollView",
+          "source_files": "Alete/Classes/Home/Lib/SDCycleScrollView/**/**"
+        },
+        {
+          "name": "YYWebImage",
+          "source_files": "Alete/Classes/Home/Lib/YYWebImage/**/**"
+        },
+        {
+          "name": "YYCache",
+          "source_files": "Alete/Classes/Home/Lib/YYCache/**/**"
+        },
+        {
+          "name": "YYText",
+          "source_files": "Alete/Classes/Home/Lib/YYText/**/**"
+        },
+        {
+          "name": "RSA",
+          "source_files": "Alete/Classes/Home/Lib/RNCryptor/**/**"
+        },
+        {
+          "name": "Alete",
+          "source_files": "Alete/Classes/Home/Lib/Alete/**/**"
+        }
+      ]
+    }
+  ]
+}

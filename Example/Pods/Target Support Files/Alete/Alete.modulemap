@@ -1,0 +1,6 @@
+framework module Alete {
+  umbrella header "Alete-umbrella.h"
+
+  export *
+  module * { export * }
+}

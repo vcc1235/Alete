@@ -1,0 +1,6 @@
+framework module Pods_Alete_Tests {
+  umbrella header "Pods-Alete_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
